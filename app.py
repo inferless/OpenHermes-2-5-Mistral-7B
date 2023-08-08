@@ -17,7 +17,9 @@ class InferlessPythonModel:
         self.llm = LLM("/model")
     
     def infer(self, inputs):
+        print("inputs[questions] -->", inputs["questions"], flush=True)
         prompts = [self.template.format(q) for q in inputs["questions"]]
+        print("Prompts -->", prompts, flush=True)
         sampling_params = SamplingParams(
             temperature=0.75,
             top_p=1,
