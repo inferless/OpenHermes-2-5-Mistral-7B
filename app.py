@@ -35,5 +35,7 @@ class InferlessPythonModel:
             print(output.prompt, output.outputs[0].text, "\n\n", sep="")
         print(f"Generated {num_tokens} tokens")
 
-    def finalize(self):
+    return {"outputs": result}
+
+    def finalize(self, args):
         pass
