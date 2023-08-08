@@ -1,4 +1,4 @@
-# Vllm
+# Llama 2 - 7b with vLLM
 vLLM is a fast and easy-to-use library for LLM inference and serving. You can use this template to use vLLM in Inferless.
 
 ---
