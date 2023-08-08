@@ -1,6 +1,6 @@
 build:
+  cuda_version: "11.8.0"
   system_packages:
     - "libssl-dev"
   python_packages:
-    - "vllm"
-    - "hf-transfer~=0.1"
+    - "numpy==1.24.3"
