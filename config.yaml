@@ -1,0 +1,6 @@
+build:
+  system_packages:
+    - "libssl-dev"
+  python_packages:
+    - "vllm"
+    - "hf-transfer~=0.1"
