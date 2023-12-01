@@ -1,18 +1,11 @@
 import os
 from vllm import SamplingParams
 from vllm import LLM
-from huggingface_hub import snapshot_download
 
 
 class InferlessPythonModel:
     def initialize(self):
-        snapshot_download(
-            "teknium/OpenHermes-2.5-Mistral-7B",
-            local_dir="/model",
-            token="<<your_token>>",
-        )
-        self.llm = LLM("/model")
-    
+        self.llm = LLM("teknium/OpenHermes-2.5-Mistral-7B")
     def infer(self, inputs):
         prompts = inputs["questions"]
         sampling_params = SamplingParams(
