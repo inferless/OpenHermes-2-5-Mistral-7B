@@ -4,7 +4,7 @@
         "data": [
           "What is Quantum Computing?"
         ],
-        "name": "questions",
+        "name": "prompt",
         "shape": [
           1
         ],
