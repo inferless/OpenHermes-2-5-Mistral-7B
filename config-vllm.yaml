@@ -1,8 +1,0 @@
-build:
-  cuda_version: "11.8.0"
-  system_packages:
-    - "libssl-dev"
-  python_packages:
-    - "torch==2.0.1"
-    - "vllm==0.2.0"
-    - "hf-transfer~=0.1"

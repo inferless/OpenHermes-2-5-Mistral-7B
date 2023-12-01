@@ -10,7 +10,7 @@ class InferlessPythonModel:
         USER: {}
         ASSISTANT: """
         snapshot_download(
-            "meta-llama/Llama-2-7b-chat-hf",
+            "teknium/OpenHermes-2.5-Mistral-7B",
             local_dir="/model",
             token="<<your_token>>",
         )
