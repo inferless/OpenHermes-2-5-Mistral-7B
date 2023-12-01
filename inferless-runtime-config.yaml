@@ -3,6 +3,6 @@ build:
   system_packages:
     - "libssl-dev"
   python_packages:
-    - "torch"
+    - "transformers"
+    - "accelerate"
     - "vllm"
-    - "hf-transfer"
