@@ -6,9 +6,6 @@ from huggingface_hub import snapshot_download
 
 class InferlessPythonModel:
     def initialize(self):
-        self.template = """SYSTEM: You are a helpful assistant.
-        USER: {}
-        ASSISTANT: """
         snapshot_download(
             "teknium/OpenHermes-2.5-Mistral-7B",
             local_dir="/model",
@@ -17,9 +14,7 @@ class InferlessPythonModel:
         self.llm = LLM("/model")
     
     def infer(self, inputs):
-        print("inputs[questions] -->", inputs["questions"], flush=True)
-        prompts = [self.template.format(inputs["questions"])]
-        print("Prompts -->", prompts, flush=True)
+        prompts = inputs["questions"]
         sampling_params = SamplingParams(
             temperature=0.75,
             top_p=1,
