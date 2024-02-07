@@ -39,3 +39,4 @@ optional:
   runtime_file_name: inferless-runtime-config.yaml
 model_url: https://github.com/inferless/OpenHermes-2-5-Mistral-7B.git
 provider: GITHUB
+io_schema: true
