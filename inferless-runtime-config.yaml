@@ -3,7 +3,4 @@ build:
   system_packages:
     - "libssl-dev"
   python_packages:
-    - "transformers"
-    - "accelerate"
-    - "auto-gptq"
-    - "protobuf"
+    - "vllm==0.3.2"
