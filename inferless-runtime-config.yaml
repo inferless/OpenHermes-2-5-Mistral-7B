@@ -3,4 +3,5 @@ build:
   system_packages:
     - "libssl-dev"
   python_packages:
+    - "torch==2.1.2"
     - "vllm==0.3.2"
