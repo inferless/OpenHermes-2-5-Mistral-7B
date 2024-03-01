@@ -2,7 +2,7 @@
 OpenHermes-2.5-Mistral-7B is a state of the art Mistral Fine-tune, a continuation of OpenHermes 2 model, which trained on additional code datasets.
 vLLM is a fast and easy-to-use library for LLM inference and serving. You can use this template to use vLLM in Inferless.
 ## Deploy OpenHermes-2.5-Mistral-7B using Inferless:
-- Deployment of Llama-2-7B model using [vLLM](https://github.com/vllm-project/vllm).
+- Deployment of OpenHermes-2.5-Mistral-7B model using [vLLM](https://github.com/vllm-project/vllm).
 - By using the vLLM, you can expect an average latency of 1.17 sec.
 
 ---
