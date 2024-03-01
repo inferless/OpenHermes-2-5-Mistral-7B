@@ -48,7 +48,7 @@ The following is a sample Input and Output JSON for this model which you can use
       "data": [
         "What is Quantum Computing?"
       ],
-      "name": "questions",
+      "name": "prompt",
       "shape": [
         1
       ],
@@ -66,7 +66,7 @@ The following is a sample Input and Output JSON for this model which you can use
       "data": [
         "data"
       ],
-      "name": "result",
+      "name": "generated_result",
       "shape": [
         1
       ],
@@ -89,7 +89,7 @@ curl --location '<your_inference_url>' \
                     "data": [
                         "What is Quantum Computing?"
                     ],
-                    "name": "questions",
+                    "name": "prompt",
                     "shape": [
                         1
                     ],
