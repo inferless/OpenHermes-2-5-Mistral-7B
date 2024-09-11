@@ -1,7 +1,5 @@
 build:
   cuda_version: "12.1.1"
-  system_packages:
-    - "libssl-dev"
   python_packages:
     - "torch==2.1.2"
     - "vllm==0.3.2"
